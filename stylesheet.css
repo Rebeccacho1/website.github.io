@@ -1,0 +1,38 @@
+/* title */
+.main-title{
+  background-color: #dfe2e8;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 0px 30px;
+  letter-spacing: 1px;
+}
+
+/* Lines */
+  .flat{
+    position: relative;
+    border: 2px solid black;
+    height: 0;
+  }
+  .flat .feature-text{
+    position: absolute;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    top: -23px;
+    left: 50%;
+    color: black;
+    transform: translate(-50%,0%);
+    background-color: white;
+  }
+
+  /* About Me Information */
+  .container_background{
+    background-color: rgb(246,247,249);;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+/* Background Colour for Footer */
+  .footer{
+    background-color: rgb(246,247,249);
+  }
